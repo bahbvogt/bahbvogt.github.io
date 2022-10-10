@@ -19,7 +19,7 @@ for(const link of links){
 	});
 
 	link.addEventListener('mouseout', function handleMouseOut() {
-		link.innerHTML = link.innerHTML.replace(/[^\w\s\.\-&<>]/g, '');
+		link.innerHTML = link.innerHTML.replace(/[^\w\s\.\-&'<>]/g, '');
 	});
 	}
 }
