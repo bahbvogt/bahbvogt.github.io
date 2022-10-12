@@ -7,7 +7,7 @@ for(const link of links){
 		link.addEventListener('mouseover', function handleMouseOver() {
 		var startStr = link.innerHTML;
 		var startLength = link.innerHTML.length;
-		for (var i = startLength; i >= 0; i = i - 1) {
+		for (var i = startLength; i > 0; i = i - 1) {
 			if(startStr.charAt(i-1) != " "){
 				var add = "";
 				for(var j = 0; j < Math.floor(Math.random() * 9) + 3; j++){
