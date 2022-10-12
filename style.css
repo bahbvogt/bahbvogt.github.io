@@ -96,12 +96,17 @@ a {
 	text-decoration: underline;
 }
 
-a:hover {
+a.secret {
+	color: var(--background);
+	text-decoration: underline;
+}
+
+a:hover, a.secret:hover {
 	color: var(--highlight);
 	cursor: pointer;
 }
 
-a:active {
+a:active, a.secret:active {
 	color: var(--background);
 }
 
