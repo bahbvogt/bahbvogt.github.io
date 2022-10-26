@@ -110,6 +110,10 @@ a:hover img {
 	background-color: var(--link);
 }
 
+a:hover img.icon {
+	background-color: var(--background);
+}
+
 a:active, a.secret:active {
 	color: var(--background);
 }
