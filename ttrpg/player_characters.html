@@ -21,7 +21,7 @@
 					<tr>
 						<td style="padding: 8px;"><a href="../projects.html">Projects</a></td>
 						<td style="padding: 8px;"><a href="../contact.html">Contact</a></td>
-						<td style="padding: 8px;"><a href="ttrpg/ttrpg.html">Tabletop System</a></td>
+						<td style="padding: 8px;"><a href="ttrpg.html">Tabletop System</a></td>
 						<td style="padding: 8px;"><a href="../blog.html">Blog</a></td>
 						<td style="padding: 8px;"><a href="../secret.html" class="secret">Secret Page</a></td>
 					</tr>
@@ -152,14 +152,6 @@
 							<h4>Burglar</h4>
 							You start with a bag of stolen jewels [1, 3d10 × 10g]. A bounty offering 5× the value of 
 							the jewels has been posted for your arrest.
-						</mechanic>
-						<br />
-						<br />
-						<mechanic>
-							<h4>Child of Orcos</h4> 
-							Also known as Orcs, some believe Children of Orcos to be born to parents who have broken a sacred 
-							oath. You have stonelike skin covered in gnarled horns. You are abnormally tall with pronounced 
-							canine teeth or even small tusks. You have +5 HP. Most people will be wary of you.
 						</mechanic>
 						<br />
 						<br />
@@ -318,8 +310,7 @@
 						<mechanic>
 							<h4>Scion</h4>
 							You are the descendant of a proud clan and are expected to hold yourself to a specific standard of 
-							conduct. If you are in good standing with your clan, you have +2 to Prestige. If you are in bad 
-							standing with your clan, you have -2 Prestige. You are currently in neutral standing with your clan.
+							conduct. You gain +2 to a skill of your choice, which is considered the specialty of your clan.
 						</mechanic>
 						<br />
 						<br />
@@ -723,6 +714,30 @@
 						<br />
 						<br />
 						<mechanic>
+							<h4>Primalist</h4>
+							<b>HP</b>
+							+4
+							<b>SD</b>
+							3d6
+							<br />
+							<table>
+								<tr>
+									<td class="key">A</td>
+									<td class="keydesc">Whenever you cast a <i>primal aspect</i> spell, you treat all spell dice spent 
+										as one size larger.</td>
+								</tr>
+								<tr>
+									<td class="key">B</td>
+									<td class="keydesc">At the beginning of each round in combat, you may choose to take -1 to WIL to extend 
+										the duration of an active <i>primal aspect</i> spell you cast by 1 round.</td>
+								</tr>
+							</table>
+							<b>Spells</b>
+							<i><a  href="#primal_claws">primal aspect: claws</a>, <a  href="#primal_venom">primal aspect: venom</a></i>
+						</mechanic>
+						<br />
+						<br />
+						<mechanic>
 							<h4>Regenerator</h4>
 							<b>HP</b>
 							+2
@@ -1034,6 +1049,19 @@
 						<br />
 						<br />
 						<mechanic>
+							<h4 id="mirror_image">Mirror Image [1+]</h4>
+							<b>R</b>
+							5' + (5' × [numdice] / 10)
+							<b>T</b>
+							open space(s)
+							<b>D</b>
+							indefinite
+							<br />
+							You create [num dice] mirror images of yourself. These images can do anything you can do but have only 1 HP and share your SD pool. Each round, either you or one of your mirror images can take an action, though all may move on your turn.
+						</mechanic>
+						<br />
+						<br />
+						<mechanic>
 							<h4 id="mummify">Mummify [1+]</h4>
 							<b>R</b>
 							5'
@@ -1112,6 +1140,34 @@
 						<br />
 						<br />
 						<mechanic>
+							<h4 id="primal_claws">Primal Aspect: Claws [1+]</h4>
+							<b>R</b>
+							-
+							<b>T</b>
+							self
+							<b>D</b>
+							1 round
+							<br />
+							You grow claws. You gain a claw [-, -, [dice] slash, 5'] attack. You may make an attack with 
+							your claws as a part of this spell.
+						</mechanic>
+						<br />
+						<br />
+						<mechanic>
+							<h4 id="primal_venom">Primal Aspect: Venom [1+]</h4>
+							<b>R</b>
+							-
+							<b>T</b>
+							self
+							<b>D</b>
+							1 round
+							<br />
+							You grow venomous fangs. You gain a claw [-, -, [dice] poison, 5', <i>finesse DEX</i>] attack. You may make an attack 
+							with your fangs as a part of this spell.
+						</mechanic>
+						<br />
+						<br />
+						<mechanic>
 							<h4 id="serrate">Serrate [1+]</h4>
 							<b>R</b>
 							-
@@ -1133,10 +1189,10 @@
 							<b>T</b>
 							open space
 							<b>D</b>
-							immediate
+							[num dice] rounds
 							<br />
-							<br />
-							You summon a creature you've made a contract with or an item you've marked.
+							You summon a creature you've made a contract with or an item you've marked. The summoned creature or item returns to where 
+							it was at the end of the duration.
 						</mechanic>
 						<br />
 						<br />
