@@ -15,7 +15,7 @@ body {
 	margin: 0 auto;
 	max-width: 920px;
 	min-height: 100vh;
-  	padding: 0;
+  	padding: 0px;
 	display: flex;
   	flex-direction: column;
 }
@@ -100,10 +100,16 @@ a.secret {
 	text-decoration: underline;
 }
 
-a:hover, a.secret:hover {
+a.discreet {
+	color: var(--text);
+	text-decoration: none;
+}
+
+a:hover, a.secret:hover, a.discreet:hover {
 	background-color: var(--link);
 	color: var(--background);
 	cursor: pointer;
+	text-decoration: underline;
 }
 
 a:hover img {
@@ -114,7 +120,7 @@ a:hover img.icon {
 	background-color: var(--background);
 }
 
-a:active, a.secret:active {
+a:active, a.secret:active, a.discreet:active {
 	color: var(--background);
 }
 
@@ -231,7 +237,7 @@ img.icon{
 	padding-right: 1%;
 }
 
-.column img, .column p, .column iframe, .column a {
+.column img, .column p, .column iframe, .column a img {
 	vertical-align: middle;
 	width: 100%;
 	padding-top: 8px;
