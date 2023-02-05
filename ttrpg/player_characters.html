@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<title>Bo Vogt</title>
+		<link rel="icon" href="../images/favicon.png">
 		<link href="../style.css" rel="stylesheet" type="text/css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,8 +33,7 @@
 					<td>
 						<h1 id="player_characters">Player Characters</h1>
 						To create a character, roll your
-						<a  href="#ability_scores">ability scores</a>, choose your
-						<a  href="#hometown">hometown</a>, determine your
+						<a  href="#ability_scores">ability scores</a>, determine your
 						<a  href="#background">background</a>, select a number of
 						<a  href="#techniques">techniques</a>
 						equal to your level, and pick your
@@ -73,75 +73,18 @@
 							</tr>
 						</table>
 						<br />
-						Roll 2d4 - 4 to determine each stat in order.
+						To determine a stat, roll 1d4, 1d6, 1d8, 1d10, and 1d12. Assign the die that rolled the lowest
+						number to the stat. If two die roll the same number, assign the die with more faces. Do this
+						for each stat in order.
 						<br />
 						<br />
-						You can reroll one stat or swap two stats.
-						<br />
-						<br />
-						If the sum of all four scores is a negative number, start over.
+						When you are finished, you can reroll one stat or swap two stats.
 						<br />
 						<br />
 						<h3 id="armor_rating">Armor Rating</h3>
-						You ignore a number of points equal to your armor rating (AR) each round of combat. Your base
-						AR (before armor) is equal to your DEX (minimum 0) unless otherwise noted.
-						<br />
-						<br />
-						<h3 id="ability_score_min">Minimum</h3>
-						A character with an ability score of -5 or less in any stat is unplayable, due either to death 
-						or madness.
-						<br />
-						<br />
-						<h2 id="hometown">Hometown</h2>
-						Pick one when you create a character.
-						<br />
-						<br />
-						<mechanic>
-							<h4>Aagoda</h4>
-							<b>P</b>
-							350,000
-							<b>R</b>
-							Solissar
-							<br />
-							<i>For reasons only loosely understood, roughly 1 in 10,000 children are born a Noble 
-								Solissan — all <a  href="#homunculus">clones</a> of an ancient Sorceress. These 
-								children are adopted and raised by the Solissan Dynasty. </i>
-						</mechanic>
-						<br />
-						<br />
-						<mechanic>
-							<h4>Godsroot</h4>
-							<b>P</b>
-							1,000,000
-							<b>R</b>
-							Celestial Plains
-							<br />
-							<i>Thousands of pilgrims make their way to the Celestial City each year to gaze upon the Holy Mountain. Built on sacred gound at the center of the cosmos, where the Traid fought Tiamat and freed the spheres of her tyrrany. </i>
-						</mechanic>
-						<br />
-						<br />
-						<mechanic>
-							<h4>Ndonec</h4>
-							<b>P</b>
-							500,000
-							<b>R</b>
-							Koss
-							<br />
-							<i>The City of Ten-Thousand Stairs has far more than ten-thousand stairs. Built on and 
-								into a mountain of sheer faces and pointed peaks, Ndonec is the largest city in Koss 
-								and a major center of trade.</i>
-						</mechanic>
-						<br />
-						<br />
-						<mechanic>
-							<h4>Small Town</h4>
-							<b>P</b>
-							< 5,000
-							<b>R</b>
-							Koss, Solissar, or the Celestial Plains
-							<br />
-							<i>Any of a number of quiet settlements, where folk lead a simple life.</i>
-						</mechanic>
+						You ignore a number of points equal to your armor rating (AR) each round of combat. Unless
+						otherwise noted,Your base AR (before armor) is equal to the median roll of your DEX die,
+						rounded down.
 						<br />
 						<br />
 						<h2 id="background">Background</h2>
@@ -325,7 +268,8 @@
 						In addition to any belongings from your background, you start with a travel bag, 3d6 × 5g, and 
 						one item determined randomly from the list below.
 						You may spend your gold to buy additional
-						<a  href="goods_services.html">items</a>.
+						<a  href="goods_services.html">items</a>. See the <a  href="rules_terms.html#inventory">inventory</a>
+						section for more information.
 						<br />
 						<br />
 						<h4>Random Items</h4>
@@ -367,7 +311,7 @@
 							</tr>
 							<tr>
 								<td class="key">9</td>
-								<td class="keydesc">grappling hook [2]</td>
+								<td class="keydesc">grappling hook and 20ft rope [3]</td>
 							</tr>
 							<tr>
 								<td class="key">10</td>
@@ -395,7 +339,7 @@
 							</tr>
 							<tr>
 								<td class="key">16</td>
-								<td class="keydesc">deck of tarot cards [1]</td>
+								<td class="keydesc">drawing pad and stick of charcoal [1]</td>
 							</tr>
 							<tr>
 								<td class="key">17</td>
@@ -1228,13 +1172,14 @@
 						<br />
 						<h2 id="skills">Skills</h2>
 						You start with 6 skill points (in addition to any you get from your hometown), which you
-						can distribute however you like among 2-6 skills. A skill you invest 1 point in becomes a +1
-						skill,and so on.
+						can distribute however you like among 2-6 skills. A skill you invest 1 point in becomes a +1d4
+						skill, a skill you invest 2 points in becomes a +1d6 skill, and so on. The maximum number of
+						points you can spend on a skill is 5.
 						<br />
 						<br />
 						You may choose your skills from the list of example skills below or make your own. As a
 						general guideline, anything that could conceivably be a college major makes a good skill. If you
-						make your own, they must be approved by your DM before play.
+						make your own, they must be approved by your GM before play.
 						<br />
 						<br />
 						<h4>Example Skills</h4>
@@ -1312,8 +1257,6 @@
 										<a  href="#ability_score_min">Minimum</a>
 									</mechanic>
 								</div>
-								<a  href="#hometown">Hometown</a>
-								<br />
 								<a  href="#background">Background</a>
 								<br />
 								<div style="padding-left: 16px">
