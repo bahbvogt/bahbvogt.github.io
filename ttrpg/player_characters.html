@@ -35,7 +35,7 @@
 						To create a character, roll your
 						<a  href="#ability_scores">ability scores</a>, determine your
 						<a  href="#background">background</a>, select a number of
-						<a  href="#techniques">techniques</a>
+						<a  href="#styles">styles</a>
 						equal to your level, and pick your
 						<a  href="#skills">skills</a>.
 						<br />
@@ -148,8 +148,8 @@
 						<br />
 						<mechanic>
 							<h4 id="homunculus">Homunculus</h4>
-							You have 1d4 spell dice and know one of the following spells, determined randomly from the 
-							list below. You may only cast this spell with yourself as the target.
+							You have 1d4 technique dice and know one of the following techniques, determined randomly from the 
+							list below. You may only cast this technique with yourself as the target.
 							<table>
 								<tr>
 									<td class="key">1</td>
@@ -363,13 +363,13 @@
 						</table>
 						<br />
 						<br />
-						<h2 id="techniques">Techniques</h2>
-						Pick one whenever you gain a level. Each time you pick a technique that grants spell dice,
-						you learn a spell from that technique's spell list.
+						<h2 id="styles">Styles</h2>
+						Pick one whenever you gain a level. Each time you pick a style that grants technique dice,
+						you learn a technique from that style's technique list.
 						<br />
 						<br />
-						Each technique has a number of keys (A, B, C, and so on). Each successive time you take
-						a technique, you gain the ability associated with the next key, in alphabetical order.
+						Each style has a number of keys (A, B, C, and so on). Each successive time you take
+						a style, you gain the ability associated with the next key, in alphabetical order.
 						<br />
 						<br />
 						<mechanic>
@@ -404,7 +404,7 @@
 							<h4>Arsonist</h4>
 							<b>HP</b>
 							+2
-							<b>SD</b>
+							<b>TD</b>
 							5d8
 							<br />
 							<table>
@@ -416,7 +416,7 @@
 									</td>
 								</tr>
 							</table>
-							<b>Spells</b>
+							<b>Techniques</b>
 							<i><a  href="#fire_plume">fire plume</a></i>
 						</mechanic>
 						<br />
@@ -531,19 +531,19 @@
 							<h4>Enchanter</h4>
 							<b>HP</b>
 							+4
-							<b>SD</b>
+							<b>TD</b>
 							3d6
 							<br />
 							<table>
 								<tr>
 									<td class="key">A</td>
 									<td class="keydesc">
-										Whenever you cast a spell that targets a weapon, you may immediately make
+										Whenever you perform a technique that targets a weapon, you may immediately make
 										a weapon attack.
 									</td>
 								</tr>
 							</table>
-							<b>Spells</b>
+							<b>Techniques</b>
 							<i>
 								<a  href="#galvanize">galvanize</a>,
 								<a  href="#serrate">serrate</a>
@@ -573,7 +573,7 @@
 							<h4>Gravecaller</h4>
 							<b>HP</b>
 							+2
-							<b>SD</b>
+							<b>TD</b>
 							6d6
 							<br />
 							<table>
@@ -581,13 +581,13 @@
 									<td class="key">A</td>
 									<td class="keydesc">
 										Whenever an undead within 120' of you is reduced to 0 or less HP, you can
-										spend your next action and a number of spell dice less than or equal to your
+										spend your next action and a number of technique dice less than or equal to your
 										level to heal it. An undead healed in this way acts as though it was animated by
 										you.
 									</td>
 								</tr>
 							</table>
-							<b>Spells</b>
+							<b>Techniques</b>
 							<i>
 								<a  href="#animate_skeleton">animate skeleton</a>,
 								<a  href="#exequy">exequy</a>,
@@ -617,20 +617,20 @@
 							<h4>Lightning Eater</h4>
 							<b>HP</b>
 							+4
-							<b>SD</b>
+							<b>TD</b>
 							4d4
 							<br />
 							<table>
 								<tr>
 									<td class="key">A</td>
 									<td class="keydesc">
-										Whenever you take lighting damage, you gain SD equal to the damage dice of
-										the attack. Dice gained in this way are not limited by your max spell dice.
+										Whenever you take lighting damage, you gain TD equal to the damage dice of
+										the attack. Dice gained in this way are not limited by your max technique dice.
 										These dice disappear after a long rest.
 									</td>
 								</tr>
 							</table>
-							<b>Spells</b>
+							<b>Techniques</b>
 							<i>
 								<a  href="#galvanize">galvanize</a>,
 								<a  href="#lightning_bolt">lightning bolt</a>,
@@ -643,17 +643,17 @@
 							<h4>Mage</h4>
 							<b>HP</b>
 							+0
-							<b>SD</b>
+							<b>TD</b>
 							9d6
 							<br />
 							<table>
 								<tr>
 									<td class="key">A+</td>
-									<td class="keydesc">You learn an additional spell from the Mage spell list.</td>
+									<td class="keydesc">You learn an additional technique from the Mage technique list.</td>
 								</tr>
 							</table>
-							<b>Spells</b>
-							<i><a  href="#spells">any</a></i>
+							<b>Techniques</b>
+							<i><a  href="#techniques">any</a></i>
 						</mechanic>
 						<br />
 						<br />
@@ -661,24 +661,24 @@
 							<h4>Primalist</h4>
 							<b>HP</b>
 							+4
-							<b>SD</b>
+							<b>TD</b>
 							3d6
 							<br />
 							<table>
 								<tr>
 									<td class="key">A</td>
 									<td class="keydesc">Between each round of combat, you may choose to take -1 to WIL to extend 
-										the duration of an active <i>primal aspect</i> spell you cast by 1 round.</td>
+										the duration of an active <i>primal aspect</i> technique you cast by 1 round.</td>
 								</tr>
 								<tr>
 									<td class="key">B</td>
-									<td class="keydesc">Whenever you cast a <i>primal aspect</i> spell, you may immediately cast a different primal 
-										aspect spell you know with lesser or equal spell dice. If both of these spells allow you to make an attack as 
-										part of the spell, you may only make one attack. Treat the effects of these spells as if they were one 
-										spell.</td>
+									<td class="keydesc">Whenever you cast a <i>primal aspect</i> technique, you may immediately cast a different primal 
+										aspect technique you know with lesser or equal technique dice. If both of these techniques allow you to make an attack as 
+										part of the technique, you may only make one attack. Treat the effects of these techniques as if they were one 
+										technique.</td>
 								</tr>
 							</table>
-							<b>Spells</b>
+							<b>Techniques</b>
 							<i><a  href="#primal_rend">primal aspect: rend</a>, <a  href="#primal_speed">primal aspect: speed</a>, 
 								<a  href="#primal_venom">primal aspect: venom</a></i>
 						</mechanic>
@@ -688,23 +688,23 @@
 							<h4>Regenerator</h4>
 							<b>HP</b>
 							+2
-							<b>SD</b>
+							<b>TD</b>
 							6d6
 							<br />
 							<table>
 								<tr>
 									<td class="key">A</td>
-									<td class="keydesc">Whenever you cast a spell that causes you to regain hit points, 
+									<td class="keydesc">Whenever you perform a technique that causes you to regain hit points, 
 										you gain temporary hit points equal to any excess hit points you recover beyond 
 										your HP maximum.</td>
 								</tr>
 								<tr>
 									<td class="key">B</td>
-									<td class="keydesc">Whenever you cast a healing spell that targets another 
+									<td class="keydesc">Whenever you cast a healing technique that targets another 
 										character, you are healed half the amount the target is healed.</td>
 								</tr>
 							</table>
-							<b>Spells</b>
+							<b>Techniques</b>
 							<i><a  href="#heal">heal</a>, <a  href="#invigorating_mist">invigorating mist</a></i>
 						</mechanic>
 						<br />
@@ -753,10 +753,10 @@
 						<br />
 						<br />
 						<mechanic>
-							<h4>Spellblade</h4>
+							<h4>Techniqueblade</h4>
 							<b>HP</b>
 							+4
-							<b>SD</b>
+							<b>TD</b>
 							4d4
 							<br />
 							<table>
@@ -764,14 +764,14 @@
 									<td class="key">A</td>
 									<td class="keydesc">
 										Once per round, when you hit a character with a weapon attack, you
-										may immediately cast one spell from the Spellblade spell list. The spell must
-										target the character you hit, but you may ignore the range of the spell.
+										may immediately cast one technique from the Techniqueblade technique list. The technique must
+										target the character you hit, but you may ignore the range of the technique.
 									</td>
 								</tr>
 							</table>
-							<b>Spells</b>
+							<b>Techniques</b>
 							<i>
-								<a  href="#blood_to_flame">blood to flame</a>,
+								<a  href="#transmute_blood_to_flame">transmute: blood to flame</a>,
 								<a  href="#douse">douse</a>,
 								<a  href="#shadow_step">shadow step</a>
 							</i>
@@ -807,24 +807,24 @@
 						<br />
 						<br />
 						<h2 id="hit_points">Hit Points</h2>
-						Before taking any techniques, a character has 10 hit points (HP). Each time you take a 
-						technique, add the relevant bonus listed in the technique.
+						Before taking any styles, a character has 10 hit points (HP). Each time you take a 
+						style, add the relevant bonus listed in the style.
 						<br />
 						<br />
-						<h2 id="spell_dice">Spell Dice</h2>
-						Whenever you take a technique with spell dice (SP), you add the listed dice to your spell
-						dice pool. You can use dice from your pool to cast spells, at which point the dice are expended.
-						All spell dice are added back into the pool after a long rest.
+						<h2 id="technique_dice">Technique Dice</h2>
+						Whenever you take a style with technique dice (TD), you add the listed dice to your technique
+						dice pool. You can use dice from your pool to perform techniques. Dice you spend to perform techniques are expended.
+						All technique dice are added back into the pool after a long rest.
 						<br />
 						<br />
-						Any character with unexpended spell dice can cast a spell they know. A character cannot spend
-						a number of spell dice greater than their level when casting a spell.
+						Any character with unexpended technique dice can perform a technique they know. A character cannot spend
+						a number of technique dice greater than their level when casting a technique.
 						<br />
 						<br />
-						<h2 id="spells">Spells</h2>
-						Each spell lists how many spell dice are required to cast it in square brackets []. If a
-						spell has a + in the square brackets, it can be optionally cast with additional spell dice to
-						highten the effect, as described in the spell description.
+						<h2 id="techniques">Techniques</h2>
+						Each technique lists how many technique dice are required to cast it in square brackets []. If a
+						technique has a + in the square brackets, it can be optionally cast with additional technique dice to
+						highten the effect, as described in the technique description.
 						<br />
 						<br />
 						<mechanic>
@@ -844,7 +844,7 @@
 						<br />
 						<br />
 						<mechanic>
-							<h4 id="blood_to_flame">Blood to Flame [1+]</h4>
+							<h4 id="transmute_blood_to_flame">Transmute: Blood to Flame [1+]</h4>
 							<b>R</b>
 							30'
 							<b>T</b>
@@ -852,7 +852,7 @@
 							<b>D</b>
 							immediate
 							<br />
-							Target takes [dice] fire damage. The spell fails if the target does not currently have the
+							Target takes [dice] fire damage. The technique fails if the target does not currently have the
 							<i>bleed</i>
 							condition.
 						</mechanic>
@@ -868,8 +868,8 @@
 							[dice] hrs
 							<br />
 							Target makes an AWR vs WIL saving throw. If they fail, they regard you as a good friend
-							and ignore the obvious spell you just cast on them. If you spend at least 9 dice to cast
-							this spell, the duration becomes permanent.
+							and ignore the obvious technique you just cast on them. If you spend at least 9 dice to cast
+							this technique, the duration becomes permanent.
 						</mechanic>
 						<br />
 						<br />
@@ -1004,7 +1004,7 @@
 							<b>D</b>
 							indefinite
 							<br />
-							You create [num dice] mirror images of yourself. These images can do anything you can do but have only 1 HP and share your SD pool. Each round, either you or one of your mirror images can take an action, though all may move on your turn.
+							You create [num dice] mirror images of yourself. These images can do anything you can do but have only 1 HP and share your TD pool. Each round, either you or one of your mirror images can take an action, though all may move on your turn.
 						</mechanic>
 						<br />
 						<br />
@@ -1018,15 +1018,15 @@
 							indefinite
 							<br />
 							<i>
-								Requires embalming materials worth 50g for each spell die used. These materials
-								are expended when the spell is cast.
+								Requires embalming materials worth 50g for each technique die used. These materials
+								are expended when the technique is cast.
 							</i>
 							<br />
-							Takes a number of days equal to the number of spell dice. Target is mummified. If you
-							spend at least 4 spell dice, you can retain one of the body's animal souls. You can retain
-							one extra animal soul for each 2 additional spell die you spend over 4. If you spend at 
-							least 8 spell dice, you can retain one of the higher souls. You can retain one extra higher 
-							soul for each 2 additional spell die you spend over 8. The mummy's HD is equal to [dice] + 
+							Takes a number of days equal to the number of technique dice. Target is mummified. If you
+							spend at least 4 technique dice, you can retain one of the body's animal souls. You can retain
+							one extra animal soul for each 2 additional technique die you spend over 4. If you spend at 
+							least 8 technique dice, you can retain one of the higher souls. You can retain one extra higher 
+							soul for each 2 additional technique die you spend over 8. The mummy's HD is equal to [dice] + 
 							WIL.
 							<br />
 							<br />
@@ -1096,7 +1096,7 @@
 							1 round
 							<br />
 							Your physiology changes and you gain a natural weapon [-, -, [dice] slash, 5'] for the duration. You may make an attack with 
-							this natural weapon as a part of this spell.
+							this natural weapon as a part of this technique.
 						</mechanic>
 						<br />
 						<br />
@@ -1109,8 +1109,8 @@
 							<b>D</b>
 							1 round
 							<br />
-							Your physiology changes and you gain +5' Movement for each spell die spent and you gain a natural weapon [-, -, 1d6 bludgeoning, 5'] 
-							for the duration. You may make an attack with this natural weapon as a part of this spell.
+							Your physiology changes and you gain +5' Movement for each technique die spent and you gain a natural weapon [-, -, 1d6 bludgeoning, 5'] 
+							for the duration. You may make an attack with this natural weapon as a part of this technique.
 						</mechanic>
 						<br />
 						<br />
@@ -1124,7 +1124,7 @@
 							1 round
 							<br />
 							Your physiology changes and you gain a natural weapon [-, -, [dice] poison, 5', <i>finesse DEX</i>] for the duration. You may 
-							make an attack with this natural weapon as a part of this spell.
+							make an attack with this natural weapon as a part of this technique.
 						</mechanic>
 						<br />
 						<br />
@@ -1264,13 +1264,13 @@
 										<a  href="#belongings">Belongings</a>
 									</mechanic>
 								</div>
-								<a  href="#techniques">Techniques</a>
+								<a  href="#styles">Styles</a>
 								<br />
 								<a  href="#hit_points">Hit Points</a>
 								<br />
-								<a  href="#spell_dice">Spell Dice</a>
+								<a  href="#technique_dice">Technique Dice</a>
 								<br />
-								<a  href="#spells">Spells</a>
+								<a  href="#techniques">Techniques</a>
 								<br />
 								<a  href="#skills">Skills</a>
 							</mechanic>
