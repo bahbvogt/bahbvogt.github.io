@@ -63,7 +63,7 @@
 							<b>S</b>
 							3
 							<b>V</b>
-							630g
+							250g
 							<br />
 							<b>B</b>
 							+4 AR
@@ -283,7 +283,7 @@
 							17g2s5c
 							<br />
 							<b>D</b>
-							1d8 slash
+							1d8 + STR slash
 							<b>R</b>
 							5'
 							<br />
@@ -299,7 +299,7 @@
 							11g2s
 							<br />
 							<b>D</b>
-							1d6 stab
+							1d6 + AWR stab
 							<b>R</b>
 							20'-120'
 							<br />
@@ -314,7 +314,7 @@
 							<b>V</b>
 							7g
 							<b>D</b>
-							1d6 blunt
+							1d6 + STR blunt
 							<b>R</b>
 							5'
 							<br />
@@ -329,7 +329,7 @@
 							9g
 							<br />
 							<b>D</b>
-							1d4 stab
+							1d4 + DEX stab
 							<b>R</b>
 							5'
 							<br />
@@ -345,7 +345,7 @@
 							10g5s
 							<br />
 							<b>D</b>
-							2d6 blunt
+							2d6 + STR blunt
 							<b>R</b>
 							5'
 							<br />
@@ -361,7 +361,7 @@
 							16g5s
 							<br />
 							<b>D</b>
-							1d10 slash
+							1d10 + STR slash
 							<b>R</b>
 							5'-10'
 							<br />
@@ -377,11 +377,11 @@
 							15g
 							<br />
 							<b>D</b>
-							1d4 slash
+							1d4 + DEX slash
 							<b>R</b>
 							5'
 							<br />
-							<i>bleed 1d4, finesse DEX</i>
+							<i>bleed 1d4</i>
 						</mechanic>
 						<br />
 						<br />
@@ -393,7 +393,7 @@
 							17g2s5c
 							<br />
 							<b>D</b>
-							1d8 slash
+							1d8 + STR slash
 							<b>R</b>
 							5'
 							<br />
@@ -409,7 +409,7 @@
 							21g
 							<br />
 							<b>D</b>
-							1d6 stab
+							1d6 + DEX stab
 							<b>R</b>
 							5'
 							<br />
@@ -425,11 +425,10 @@
 							10g5s
 							<br />
 							<b>D</b>
-							1d6 stab
+							1d6 + STR stab
 							<b>R</b>
 							5'
 							<br />
-							<i>finesse DEX</i>
 						</mechanic>
 						<br />
 						<br />
@@ -441,7 +440,7 @@
 							15g8s5c
 							<br />
 							<b>D</b>
-							1d6 stab
+							1d6 + DEX stab
 							<b>R</b>
 							5'
 							<br />
@@ -457,7 +456,7 @@
 							13g
 							<br />
 							<b>D</b>
-							1d12 blunt
+							1d12 + STR blunt
 							<b>R</b>
 							5'
 							<br />
@@ -473,11 +472,10 @@
 							9g3g8c
 							<br />
 							<b>D</b>
-							1d4 slash
+							1d4 + DEX slash
 							<b>R</b>
 							5'-10'
 							<br />
-							<i>finesse DEX</i>
 						</mechanic>
 						<br />
 						<br />
@@ -496,11 +494,6 @@
 						<br />
 						<b>Cumbersome X.</b>
 						The weapon’s initiative is X die sizes larger than its damage.
-						<br />
-						<br />
-						<b>Finesse X.</b>
-						When making damage rolls with this weapon, you can add your X score in place of the
-						default ability score.
 						<br />
 						<br />
 						<b>Fragile.</b>
@@ -523,59 +516,6 @@
 						<b>Versatile XdY.</b>
 						This weapon can be wielded with one hand for default damage, or with two hands to deal
 						XdY damage.
-						<br />
-						<br />
-						<h2 id="hirelings">Hirelings</h2>
-						<table>
-							<tr>
-								<td class="key">S</td>
-								<td class="keydesc">stats</td>
-							</tr>
-							<tr>
-								<td class="key">V</td>
-								<td class="keydesc">value</td>
-							</tr>
-						</table>
-						<br />
-						<mechanic>
-							<h4>Horse</h4>
-							<b>S</b>
-							<a  href="non-player_characters.html#horse">horse</a>
-							<b>V</b>
-							60g
-						</mechanic>
-						<br />
-						<br />
-						<mechanic>
-							<h4>Messenger</h4>
-							<b>S</b>
-							<a  href="non-player_characters.html#commoner">commoner</a>
-							<b>V</b>
-							5c/hr, 1g/day
-						</mechanic>
-						<br />
-						<br />
-						<mechanic>
-							<h4>Pigeon</h4>
-							<b>S</b>
-							<a  href="non-player_characters.html#pigeon">pigeon</a>
-							<b>V</b>
-							5g
-							<br />
-							<br />
-							<b>Home</b>
-							<br />
-							The pigeon's home is the location it's purchased in.
-						</mechanic>
-						<br />
-						<br />
-						<mechanic>
-							<h4>War Hound</h4>
-							<b>S</b>
-							<a  href="non-player_characters.html#war_hound">war hound</a>
-							<b>V</b>
-							25g
-						</mechanic>
 					</td>
 					<td class="sidebar">
 						<h4>Contents</h4>
@@ -599,11 +539,8 @@
 								<div style="padding-left: 16px">
 									<mechanic><a  href="#weapon_qualities">Qualities</a></mechanic>
 								</div>
-								<a  href="#hirelings">Hirelings</a>
 							</mechanic>
 						</div>
-						<a  href="non-player_characters.html">Non-Player Characters</a>
-						<br />
 					</td>
 				</tr>
 			</table>

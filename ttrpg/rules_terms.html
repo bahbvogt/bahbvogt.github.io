@@ -32,7 +32,7 @@
 				<tr>
 					<td>
 						<h1 id="rules_terms">Rules & Terms</h1>
-						These are the rules. Ultimately enforced per the DM’s interpretation.
+						These are the rules. Ultimately enforced per the GM’s interpretation.
 						<br />
 						<br />
 						<h2 id="ability_checks">Ability Checks</h2>
@@ -54,8 +54,8 @@
 						<br />
 						<br />
 						<h3 id="combat_actions">Actions</h3>
-						On each character’s turn, they can perform 1 action and move a number of feet less than or
-						equal to their movement. A character cannot move more than their movement in a single round.
+						On each character’s turn, they can perform 1 action and move a number of squares less than or
+						equal to their movement.
 						<br />
 						<br />
 						Every character has access to the following actions.
@@ -68,11 +68,11 @@
 						your initiative is 1d6 when wielding a club) unless otherwise noted.
 						<br />
 						<br />
-						<b>Cast Spell (varies).</b>
-						Cast a spell you have prepared using a number of unexpended spell dice you have. Your
-						initiative is equal to the spell dice you spent (
+						<b>Use Technique (varies).</b>
+						Use a technique you have prepared using a number of unexpended technique dice you have. Your
+						initiative is equal to the technique dice you spent (
 						<i>i.e.</i>
-						your initiative is 2d6 when casting a spell with 2d6 spell dice) unless otherwise noted.
+						your initiative is 2d6 when using a technique with 2d6 technique dice) unless otherwise noted.
 						<br />
 						<br />
 						<b>Defend (1d4).</b>
@@ -86,16 +86,16 @@
 						<br />
 						<br />
 						<b>Run (1d6).</b>
-						Double your movement speed until the end of the round.
+						Double your movement until the end of the round.
 						<br />
 						<br />
 						<b>Reevaluate (varies).</b>
 						Choose a new action to perform on your turn and roll initiative. Add your new initiative to
-						your current initiative.
+						your current initiative. You may not use your movement until your new initiative.
 						<br />
 						<br />
 						<h2 id="damage">Damage</h2>
-						When you deal damage with an ability, weapon, spell, or anything else, you roll the
+						When you deal damage with an ability, weapon, technique, or anything else, you roll the
 						specified damage dice and add any appropriate modifiers. This is how much damage you deal to your
 						target or targets (before resistances).
 						<br />
@@ -115,7 +115,7 @@
 						<br />
 						<br />
 						When attacking with a weapon, you add your Strength modifier to the damage unless
-						otherwise noted. Spells and abilities will specify any modifiers.
+						otherwise noted. Techniques and abilities will specify any modifiers.
 						<br />
 						<br />
 						When you deal damage to more than one target with one action, roll the damage once and apply it
@@ -182,7 +182,7 @@
 							</tr>
 							<tr>
 								<td class="key">4</td>
-								<td class="keydesc">You lose a leg (movement is 5').</td>
+								<td class="keydesc">You lose a leg (movement is 1).</td>
 							</tr>
 							<tr>
 								<td class="key">5</td>
@@ -244,7 +244,7 @@
 						The die you roll for initiative is determined by your chosen action. Lower numbers go first. In
 						case of a tie, the character with higher Dexterity goes first, and in case of further ties,
 						the character who rolled the smaller die for initiative goes first. Any further ties are
-						determined by the DM.
+						determined by the GM.
 						<br />
 						<br />
 						<h2 id="resting">Resting</h2>
@@ -260,7 +260,7 @@
 						your party to fully recover. You regain all your
 						<a  href="#hit_points">hit points</a>
 						and
-						<a  href="#spell_dice">spell dice</a>
+						<a  href="#technique_dice">technique dice</a>
 						at the end of a full rest.
 						<br />
 						<br />
@@ -355,9 +355,83 @@
 						<br />
 						<mechanic>
 							<h4>Unconscious</h4>
-							Your movement is 0', you cannot take actions or perceive anything happening around you,
+							Your movement is 0, you cannot take actions or perceive anything happening around you,
 							and your initiative is 10d10.
 						</mechanic>
+						<br />
+						<br />
+						<h2 id="die_size">Die Size</h2>
+						Refer to the chart below for die size comparison.
+						<table>
+							<tr>
+								<td>0</td>
+								<td>Minimum</td>
+							</tr>
+							<tr>
+								<td>1d4</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>1d6</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>1d8</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>1d10</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>1d12</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>2d6</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>2d8</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>2d10</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>2d12</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>3d8</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>3d10</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>3d12</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>4d10</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>4d12</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>5d10</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>5d12</td>
+								<td>Maximum</td>
+							</tr>
+						</table>
 					</td>
 					<td class="sidebar">
 						<h4>Contents</h4>
@@ -405,11 +479,12 @@
 									</mechanic>
 								</div>
 								<a  href="#status">Status</a>
+								<br />
+								<a  href="#die_size">Die Size</a>
+								</div>
 							</mechanic>
 						</div>
 						<a  href="goods_services.html">Goods & Services</a>
-						<br />
-						<a  href="non-player_characters.html">Non-Player Characters</a>
 						<br />
 					</td>
 				</tr>
