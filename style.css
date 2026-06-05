@@ -7,17 +7,17 @@
 
 body {
 	color: var(--text);
-	background-color: var(--background);
-	font-family: "Noto Sans", sans-serif;
+	background-image: url("/images/background.png");
+	font-family: "Goudy Old Style", monospace;
 	font-size: 16px;
 	text-align: left;
 	align-content: center;
 	margin: 0 auto;
 	max-width: 920px;
 	min-height: 100vh;
-  	padding: 0px;
+	padding: 0px;
 	display: flex;
-  	flex-direction: column;
+	flex-direction: column;
 }
 
 footer {
@@ -59,9 +59,14 @@ td.keydesc {
 	padding: 0px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: bold;
-	font-family: "Germania One", sans-serif;
+	font-family: "Goudy Old Style", monospace;
 	color: var(--highlight);
 }
 
@@ -106,7 +111,9 @@ a.discreet {
 	text-decoration: none;
 }
 
-a:hover, a.secret:hover, a.discreet:hover {
+a:hover,
+a.secret:hover,
+a.discreet:hover {
 	background-color: var(--link);
 	color: var(--background);
 	cursor: pointer;
@@ -121,18 +128,18 @@ a:hover img.icon {
 	background-color: var(--background);
 }
 
-a:active, a.secret:active, a.discreet:active {
+a:active,
+a.secret:active,
+a.discreet:active {
 	color: var(--background);
 }
 
 a.site_title {
-	background-color: var(--background);
 	color: var(--highlight);
 	text-decoration: none;
 }
 
 a.site_title:hover {
-	background-color: var(--background);
 	color: var(--highlight);
 	cursor: pointer;
 }
@@ -144,13 +151,12 @@ a.site_title:active {
 
 banner {
 	color: var(--highlight);
-	background-color: var(--background);
 	display: block;
 	font-size: 72px;
 	padding-top: 18px;
 	padding-bottom: 18px;
 	font-weight: bold;
-	font-family: 'Germania One', sans-serif;
+	font-family: "Goudy Old Style", monospace;
 }
 
 mechanic {
@@ -173,7 +179,9 @@ b {
 	flex-grow: 1;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
 	width: 100%;
 	padding: 8px;
 	border: 2px solid var(--text);
@@ -185,11 +193,14 @@ input[type=text], select, textarea {
 	font-family: sans-serif;
 }
 
-input[type=text]:focus, select:focus, textarea:focus {
-	border: 2px solid var(--link); 
+input[type=text]:focus,
+select:focus,
+textarea:focus {
+	border: 2px solid var(--link);
 }
 
-input[type=submit], input[type=reset] {
+input[type=submit],
+input[type=reset] {
 	border: none;
 	cursor: pointer;
 	font-size: 20px;
@@ -202,12 +213,14 @@ input[type=submit], input[type=reset] {
 	font-weight: bold;
 }
 
-input[type=submit]:hover, input[type=reset]:hover {
+input[type=submit]:hover,
+input[type=reset]:hover {
 	background-color: var(--link);
 }
 
 
-input[type=submit]:active, input[type=reset]:active {
+input[type=submit]:active,
+input[type=reset]:active {
 	background-color: var(--background);
 	color: var(--link);
 }
@@ -215,11 +228,11 @@ input[type=submit]:active, input[type=reset]:active {
 hr {
 	background-color: var(--text);
 	color: var(--text);
-	height:2px;
-	border-width:0;
+	height: 2px;
+	border-width: 0;
 }
 
-img.icon{
+img.icon {
 	height: 36px;
 	float: right;
 	margin: auto;
@@ -238,7 +251,10 @@ img.icon{
 	padding-right: 1%;
 }
 
-.column img, .column p, .column iframe, .column a img {
+.column img,
+.column p,
+.column iframe,
+.column a img {
 	vertical-align: middle;
 	width: 100%;
 	padding-top: 8px;
