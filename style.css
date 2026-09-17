@@ -9,7 +9,7 @@ body {
 	color: var(--text);
 	background-image: url("/images/background.png");
 	font-family: "Goudy Old Style", monospace;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: left;
 	align-content: center;
 	margin: 0 auto;
